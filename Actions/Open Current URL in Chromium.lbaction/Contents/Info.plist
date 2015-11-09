@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>org.chromium.chromium</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blahgeek.LaunchBar.action.OpenCurrentURLInChromium</string>
+	<key>CFBundleName</key>
+	<string>Open Current URL in Chromium</string>
+	<key>LBAssociatedApplication</key>
+	<string>org.chromium.chromium</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>BlahGeek</string>
+		<key>LBEmail</key>
+		<string>i@blahgeek.com</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsite</key>
+		<string>blog.blahgeek.com</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

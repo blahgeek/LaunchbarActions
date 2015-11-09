@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>Coffee.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.renaghan.launchbar.Caffeinate</string>
+	<key>CFBundleName</key>
+	<string>Caffeinate</string>
+	<key>CFBundleVersion</key>
+	<string>3.1</string>
+	<key>LBArgument</key>
+	<string>Duration to stay awake, e.g. "10m", "2h". Hours by default. Use "0" to caffeinate forever.</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>Duration to stay awake, e.g. "10m", "2h". Hours by default. Use "0" to caffeinate forever.</string>
+		<key>LBAuthor</key>
+		<string>Padraic Renaghan</string>
+		<key>LBEmail</key>
+		<string>prenagha@renaghan.com</string>
+		<key>LBSummary</key>
+		<string>Keep system awake, as caffeine does, for a specified period of time. Uses built in system caffeinate command.</string>
+		<key>LBTwitter</key>
+		<string>@prenagha</string>
+		<key>LBWebsite</key>
+		<string>https://prenagha.github.io/launchbar/caffeinate.html</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>caffeinate.sh</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Duration e.g. 0/10m/2h</string>
+</dict>
+</plist>
