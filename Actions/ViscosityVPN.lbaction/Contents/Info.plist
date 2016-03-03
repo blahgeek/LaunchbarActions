@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>appAlertIcon.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.launchbar.viscosity.vpn</string>
+	<key>CFBundleName</key>
+	<string>VPNs</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>LBDescription</key>
+	<dict/>
+	<key>LBRequiredApplication</key>
+	<string>com.viscosityvpn.Viscosity</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
