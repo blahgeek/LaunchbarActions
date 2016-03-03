@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>org.chromium.chromium</string>
+	<string>com.google.Chrome</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.blahgeek.LaunchBar.action.OpenCurrentURLInChromium</string>
 	<key>CFBundleName</key>
-	<string>Open Current URL in Chromium</string>
+	<string>Open Current URL in Chrome</string>
 	<key>LBAssociatedApplication</key>
-	<string>org.chromium.chromium</string>
+	<string>com.google.Chrome</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
@@ -21,6 +21,8 @@
 		<key>LBWebsite</key>
 		<string>blog.blahgeek.com</string>
 	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.google.Chrome</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
