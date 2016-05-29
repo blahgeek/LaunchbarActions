@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>org.hammerspoon.Hammerspoon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blahgeek.LaunchBar.action.Hammerspoon</string>
+	<key>CFBundleName</key>
+	<string>Hammerspoon Action</string>
+	<key>LBAbbreviation</key>
+	<string>hs</string>
+	<key>LBAssociatedApplication</key>
+	<string>org.hammerspoon.Hammerspoon</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>BlahGeek</string>
+		<key>LBEmail</key>
+		<string>i@blahgeek.com</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>blog.blahgeek.com</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>org.hammerspoon.Hammerspoon</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Action Name</string>
+</dict>
+</plist>
