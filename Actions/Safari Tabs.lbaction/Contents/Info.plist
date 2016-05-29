@@ -4,36 +4,38 @@
 <dict>
 	<key>CFBundleIconFile</key>
 	<string>TabTemplate</string>
+	<key>CFBundleIdentifier</key>
+	<string>eu.weiel.action.SafariTabs</string>
 	<key>CFBundleName</key>
 	<string>Safari Tabs</string>
 	<key>CFBundleVersion</key>
 	<string>1.4</string>
-	<key>CFBundleIdentifier</key>
-	<string>eu.weiel.action.SafariTabs</string>
 	<key>LBAssociatedApplication</key>
 	<string>com.apple.Safari</string>
-	<key>LBScripts</key>
-	<dict>
-		<key>LBDefaultScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>default.scpt</string>
-			<key>LBReturnsResult</key>
-			<true/>
-			<key>LBRunInBackground</key>
-			<false/>
-		</dict>
-	</dict>
 	<key>LBDescription</key>
 	<dict>
-		<key>LBSummary</key>
-		<string>Shows the currently open Safari tabs</string>
 		<key>LBAuthor</key>
 		<string>Manuel Weiel</string>
 		<key>LBEmail</key>
 		<string>manuel@weiel.eu</string>
+		<key>LBSummary</key>
+		<string>Shows the currently open Safari tabs</string>
 		<key>LBTwitter</key>
 		<string>@xmanuw</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
