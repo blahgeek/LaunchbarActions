@@ -3,17 +3,23 @@
 # LaunchBar Action Script
 #
 import json
+import re
 import subprocess
 
 hs_output = subprocess.check_output(["/usr/local/bin/hs", "-c", ""])
-hs_output = json.loads(hs_output)
+json_output = re.search(r'{.*}', hs_output)
+if json_output is None:
+    json_output = []
+else:
+    json_output = json.loads(json_output.group(0))
 
 items = []
 
-for action in hs_output:
+for action in json_output:
     items.append({
-        'title': hs_output[action],
+        'title': json_output[action],
         'url': 'hammerspoon://' + action,
+        'subtitle': 'hammerspoon://' + action,
         'icon': 'org.hammerspoon.Hammerspoon',
     })
 
